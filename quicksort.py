@@ -17,9 +17,8 @@ def partition(array, left, right):
 
 
 def swap(array, i, j):
-    tmp = array[i]
-    array[i] = array[j]
-    array[j] = tmp
+    array[i], array[j] = array[j], array[i]
+
 
 
 if __name__ == "__main__":
